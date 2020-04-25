@@ -1,2 +1,2 @@
-# FCC-Responsive-Web-Design
-My project codes for Responsive Web Design Certification.
+# FreeCodeCamp Responsive Web Design
+ You can find the projects here: https://codepen.io/adinalini
