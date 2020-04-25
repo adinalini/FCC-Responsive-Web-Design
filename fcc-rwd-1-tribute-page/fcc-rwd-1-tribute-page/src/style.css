@@ -1,0 +1,55 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: Helvetica;
+  text-align: center;
+  
+}
+
+h1 {
+  font-size: 4rem;
+  background-color: #D29FFB;
+  padding: 40px 40px 40px 40px;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 15px;
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-caption {
+  font-size: 1.5rem;
+  margin: 10px;
+}
+
+#text-box {
+  margin-top: 30px;
+  background-color: #6BEBEA;
+  padding: 10px;
+}
+
+
+#tribute-info {
+  font-size: 2rem;
+  margin: 20px 100px 20px 100px;
+}
+
+#link-text {
+  font-size: 1.25rem;
+}
+
+
+
+
+
+
+

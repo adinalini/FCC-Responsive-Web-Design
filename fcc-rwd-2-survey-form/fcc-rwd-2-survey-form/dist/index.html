@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - FCC RWD 2: Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+<main id="main">
+  <h1 id="title"> Life Survey Form </h1>
+  
+  <p id="description"> How happy are you with your life? The council of Gods have decided to send everyone a survey form, fresh from heaven! </p>
+  
+  <form id="survey-form">
+    <div class="form-div">
+      
+      <label id="name-label"> Name </label>
+      <input id="name" class="form-control "type= "text" placeholder="Just formality :P" required />
+      
+      <label id="email-label"> E-mail </label>
+      <input id="email" class="form-control "type= "email" placeholder="Why do gods need this?" required />
+      
+      <label id="number-label"> Age </label>
+      <input id="number" class="form-control "type= "number" placeholder="We live for way longer than you mortals do lol" min= "1" max= "120" required />
+      
+      
+      <label id="long"> How much longer would you like to live? </label>
+      <select id="dropdown" class="form-control" required>
+        <option disabled selected value>Select preference </option>
+        <option value="noPreference"> No preference </option>
+        <option value="likeGods"> As long as gods</option>
+        <option value="tillNinety"> Pick me up at 90</option>
+        <option value="killMeRightNow"> Just take me already!</option>
+      </select>
+      
+      
+      <label id="believe-text"> Do you believe in Gods? </label>
+      
+       <div>
+      <input type="radio" name="believe" value="yes" id="yes"><label for="yes">Yes </label>
+         </div>
+      
+      <div>
+         <input type="radio" name="believe" value="no" id="no"> <label for="no">No </label>     
+        </div>
+      
+
+        <p id="next-life-text">What would you like to become next life?</p>
+      <div class="a">
+        <input type="checkbox" name="next-life" value="human" id="human"><label for="human"> Human
+      </label>
+        </div>
+       
+      
+      <div class="a">
+        <input type="checkbox" name="next-life" value="god" id="god">  <label for="god">God
+      </label>
+        </div>
+      
+      <div class="a">
+      <label>
+        <input type="checkbox" name="next-life" value="superhero" id="superhero"><label for="superhero"> Superhero
+      </label>
+        </div>
+      
+      <div class="a">
+        <input type="checkbox" name="next-life" value="rich" id="rich">   <label for="rich">Rich
+      </label>
+        </div>
+      
+      <div class="a">
+        <input type="checkbox" name="next-life" value="noPreference" id="nopref">  <label for="nopref"> No preference
+      </label>
+        </div>
+      
+      
+      <label id="suggestion-text">Any further suggestions or complaints?</label>
+      <textarea id="comments" class="text-area" placeholder="Not that we will read it lmao"> </textarea>
+      
+      <button type="submit" id="submit" class="submit-button"> Submit </button>
+      
+    </div>
+  </form>
+  
+  
+  
+   
+    
+    
+    
+    
+    
+  
+</main>
+<!-- partial -->
+  
+</body>
+</html>
